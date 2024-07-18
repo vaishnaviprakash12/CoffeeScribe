@@ -60,7 +60,7 @@ To run this project locally, follow these steps:
     ```bash
     # Start the backend server
     cd backend
-    npm start
+    npm run dev
 
     # Start the frontend server in another terminal
     cd frontend
