@@ -89,3 +89,4 @@ To deploy CoffeeScribe in production:
 Vaishnavi Prakash - [LinkedIn](https://www.linkedin.com/in/vaishnavi-prakash-b5547921a/) - [Email](mailto:vaishnaviprakash342@gmail.com)
 
 Project Link: [https://github.com/vaishnaviprakash12/coffeeScribe](https://github.com/vaishnaviprakash12/coffeeScribe)
+Live Site: [https://coffeescribe-5coz.onrender.com/](https://coffeescribe-5coz.onrender.com/)
