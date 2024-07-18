@@ -1,0 +1,98 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+/* Global Styling */
+* {
+    font-family: 'Croissant One', cursive;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container Styling */
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.shutterstock.com/image-photo/office-leather-desk-table-computer-600nw-300163883.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Intro Text Styling */
+.intro-text {
+    width: 100%;
+}
+
+/* Title Styling */
+.title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Subtitle Styling */
+.subtitle {
+    font-size: 1.5rem;
+    color: #ccc;
+    padding-top: 10px;
+}
+
+/* Button Group Styling */
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px; /* Adjust margin for spacing */
+}
+
+/* Button Styling */
+.landingButton {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: #000;
+    background: none;
+    border: 2px solid #fff;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.landingButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    .button {
+        padding: 0 50px; /* Adjust button padding */
+    }
+
+    .title {
+        font-size: 2.5rem; /* Decrease font size for medium screens */
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .title {
+        font-size: 2rem; /* Decrease font size for smaller screens */
+    }
+
+    .subtitle {
+        font-size: 1.2rem; /* Decrease subtitle font size */
+    }
+
+    .button {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Adjust spacing between stacked buttons */
+    }
+
+    .landingButton {
+        width: 100%; /* Full-width buttons */
+        max-width: 200px; /* Limit maximum width */
+    }
+}

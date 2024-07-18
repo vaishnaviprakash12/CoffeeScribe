@@ -1,0 +1,73 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MyNotes Component Styling */
+.my-notes {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.my-notes .create-button {
+  background-color: #28b62c;
+  border: none;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.my-notes .create-button:hover {
+  background-color: #218a21;
+}
+
+.my-notes .note-card {
+  background-color: #333; /* Dark gray card background */
+  color: #fff; /* White text color */
+  margin: 10px 0;
+  border: none;
+}
+
+.my-notes .note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444; /* Slightly lighter gray for header */
+  padding: 10px;
+  border-bottom: 1px solid #555;
+}
+
+.my-notes .note-title {
+  color: #fff; /* White text color */
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.my-notes .note-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.my-notes .note-actions button {
+  background-color: #28b62c;
+  border: none;
+  color: #fff;
+}
+
+.my-notes .note-actions button:hover {
+  background-color: #218a21;
+}
+
+.my-notes .badge-primary {
+  background-color: #007bff; /* Primary blue color */
+}
+
+.my-notes .blockquote-footer {
+  color: #aaa; /* Light gray color for footer text */
+}

@@ -1,0 +1,57 @@
+/* Global Styling */
+* {
+    font-family: 'Croissant One', cursive;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Brand Link Styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333; /* Dark background color */
+}
+
+/* Navbar Toggle Icon Styling */
+.navbar-toggler-icon {
+    color: #fff; /* White color for the toggle icon */
+}
+
+/* Navbar Links Styling */
+.nav-link {
+    color: #fff; /* White color for links */
+    font-size: 1rem;
+    text-transform: uppercase; /* Uppercase text */
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: #ccc; /* Light grey color on hover */
+}
+
+/* Navbar Dropdown Styling */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* White color for links */
+}
+
+/* Form Styling */
+.form-control {
+    width: 250px; /* Fixed width for search input */
+    margin-right: 10px;
+}
+
+/* Button Styling */
+.btn-outline-success {
+    color: #fff; /* White text color */
+    border-color: #28a745; /* Success border color */
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: #fff; /* White text color on hover */
+}

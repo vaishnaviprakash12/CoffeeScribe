@@ -1,0 +1,104 @@
+/* MyNotes Component Styling */
+.my-notes {
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text color */
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .my-notes .create-button {
+    background-color: #28b62c;
+    border: none;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .my-notes .create-button:hover {
+    background-color: #218a21;
+  }
+  
+  .my-notes .note-card {
+    background-color: #333; /* Dark gray card background */
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+    border: none;
+  }
+  
+  .my-notes .note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444; /* Slightly lighter gray for header */
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .my-notes .note-title {
+    color: #fff; /* White text color */
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .my-notes .note-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .my-notes .note-actions button {
+    background-color: #28b62c;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+  
+  .my-notes .note-actions button:hover {
+    background-color: #218a21;
+  }
+  
+  .my-notes .badge {
+    font-size: 0.8rem;
+    margin-right: 5px;
+    padding: 5px 10px;
+  }
+  
+  .my-notes .badge-primary {
+    background-color: #007bff; /* Primary blue color */
+    color: #fff; /* White text color */
+  }
+  
+  .my-notes .badge-secondary {
+    background-color: #6c757d; /* Secondary gray color */
+    color: #fff; /* White text color */
+  }
+  
+  .my-notes .badge-success {
+    background-color: #28a745; /* Success green color */
+    color: #fff; /* White text color */
+  }
+  
+  .my-notes .badge-danger {
+    background-color: #dc3545; /* Danger red color */
+    color: #fff; /* White text color */
+  }
+  
+  .my-notes .badge-warning {
+    background-color: #ffc107; /* Warning yellow color */
+    color: #000; /* Black text color */
+  }
+  
+  .my-notes .badge-info {
+    background-color: #17a2b8; /* Info cyan color */
+    color: #fff; /* White text color */
+  }
+  
+  .my-notes .badge-light {
+    background-color:#343a40;/* Light gray color */
+    color: #333; /* Dark text color */
+  }
+  
+  .my-notes .badge-dark {
+    background-color:  #f8f9fa; /* Dark gray color */
+    color: #fff; /* White text color */
+  }
+  

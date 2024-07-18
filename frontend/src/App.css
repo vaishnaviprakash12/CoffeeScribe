@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+/* Global Styling */
+* {
+  font-family: 'Croissant One', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling for components */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.815);
+  color: #28b62c;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}

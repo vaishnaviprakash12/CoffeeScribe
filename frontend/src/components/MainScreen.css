@@ -1,0 +1,49 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MainScreen Component Styling */
+.mainBack {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Light background color */
+  padding: 20px;
+}
+
+.page {
+  width: 100%;
+  max-width: 800px; /* Limit width of content for better readability */
+}
+
+.heading {
+  font-size: 4rem; /* Adjust heading font size */
+  font-family: 'Croissant One', cursive;
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.divider {
+  width: 50px; /* Divider width */
+  border-top: 2px solid #333; /* Divider color */
+  margin: 20px auto; /* Centered divider with margin */
+}
+
+/* Media Query for Smaller Screens */
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 3rem; /* Decrease font size on smaller screens */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .heading {
+    font-size: 2.5rem; /* Further decrease font size for mobile screens */
+  }
+}
